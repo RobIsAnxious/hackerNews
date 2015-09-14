@@ -5,7 +5,7 @@ var _ = require('lodash');
 var newsHeader = React.createClass({
   getLogo: function (){
     return(
-      <div className="newsheader-logo">
+      <div className="newsHeader-logo">
         <a href="https://www.ycombinator.com"><img src="../img/y18.gif"/></a>
       </div>
     );
